@@ -1,0 +1,50 @@
+<div class="container" align="left">
+  <div class="row">
+    <div class="col-md-18">
+      <p>
+        <a routerLink="/customer/add" class="btn btn-info btn-sm">
+        <span class="glyphicon glyphicon-plus"></span> Add Customer </a>
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="container" align="center">
+  <div class="row">
+    <div class="col-md-18">
+      <table class="table table-bordered table-hover">
+        <thead align="center">
+          <tr>
+            <th data-field="name">FirstName </th>
+            <th data-field="name">LastName </th>
+            <th data-field="name">Email </th>
+            <th data-field="name">Phone </th>
+            <th data-field="name">Edit </th>
+            <th data-field="name">Delete</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let cust of customer">
+            <td> {{cust.firstName}} </td>
+            <td> {{cust.lastName}} </td>
+            <td> {{cust.email}} </td>
+            <td> {{cust.mobile}} </td>
+            <td>
+              <a class="btn-btn-info btn-sm btn-info" [routerLink]="['/UpdateCustomer',cust.id]">
+  <span class="glyphicon glyphicon-edit"></span> </a>
+
+            </td>
+
+            <td>
+              <a class="btn-btn-info btn-sm btn-danger" (click)="deleteCustomer(cust)">
+  <span class="glyphicon glyphicon-trash"></span> </a>
+
+            </td>
+         
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+</div>
