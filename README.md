@@ -1,4 +1,4 @@
-# This project allows to display the customers list, add customer, edit customer and delete customer.
+# The project allows to display the customers list, add customer, edit customer and delete customer and technolgoies are used AngualarJS 2 and SpringBoot.
 
 # Below concepts are implmeneted in this project
 1)Compenent
@@ -43,3 +43,8 @@ Before running the tests make sure you are serving the app via `ng serve`.
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
+If you have any questions, please an email me at dharmendra.pawar@gmail.com
+
+## Happy coding!
