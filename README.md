@@ -15,6 +15,7 @@ The project allows to display the customers list, add customer, edit customer an
 10)Spring Boot 
 11)Rest web service
 12)Dummy database
+13)CORS support
 
 # AngularJs2
 
