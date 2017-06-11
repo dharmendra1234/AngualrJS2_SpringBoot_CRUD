@@ -1,3 +1,20 @@
+# This project allows to display the customeers list, add customer, edit customer and delete customer.
+
+# Below concepts are implmeneted in this project
+1)Compenent
+2)Routers 
+3)Service
+4)Providers
+5)Dependency Injection
+6)Event handling
+7)HTML 5 and Bootstrap and CSS
+8)Forms -Simple  ,Reactive 
+9)Forms Validations
+10)Spring Boot
+11)Rest webservice
+12)Dummy database
+
+
 # AngularJs2
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.1.1.
