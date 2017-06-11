@@ -1,4 +1,4 @@
-# This project allows to display the customeers list, add customer, edit customer and delete customer.
+# This project allows to display the customers list, add customer, edit customer and delete customer.
 
 # Below concepts are implmeneted in this project
 1)Compenent
